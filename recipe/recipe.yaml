@@ -12,7 +12,7 @@ source:
   sha256: 43e28b35a128ee651515d8098c9d22c9544a2e213758b7bd6632681181cf53b0
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -25,7 +25,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - mcp >=2.0.0,<3
-    - af-credentials >=0.2.0
+    - af-credentials >=0.4.0
 
 tests:
   - python:
