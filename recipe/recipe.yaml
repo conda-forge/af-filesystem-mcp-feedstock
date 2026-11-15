@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.0"
+  version: "0.3.0"
 
 package:
   name: af-filesystem-mcp
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/af_filesystem_mcp/af_filesystem_mcp-${{ version }}.tar.gz
-  sha256: d9d1768b943b66a6173188f26fb994d7e17776780d2b2e7701c550fd24f9ebb7
+  sha256: 43e28b35a128ee651515d8098c9d22c9544a2e213758b7bd6632681181cf53b0
 
 build:
   number: 0
